@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "webmock"
 
-  spec.add_runtime_dependency "faraday", "~> 0.7.6"
+  spec.add_runtime_dependency "faraday", ">= 0.7"
   spec.add_runtime_dependency "faraday_middleware"
 end
